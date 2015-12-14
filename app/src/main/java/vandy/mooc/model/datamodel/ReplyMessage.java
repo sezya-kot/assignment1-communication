@@ -59,11 +59,11 @@ public class ReplyMessage extends RequestReplyMessageBase {
         // download succeeded or failed.
         // TODO -x- you fill in here.
 
-	    if (pathToImageFile != null) {
-	        replyMessage.setResultCode(Activity.RESULT_OK);
-	    } else {
-		    replyMessage.setRequestCode(Activity.RESULT_CANCELED);
-	    }
+	    replyMessage.setResultCode(
+		    (pathToImageFile != null)
+			    ? Activity.RESULT_OK
+			    : Activity.RESULT_CANCELED
+	    );
 
 
         // Put the path to the image file into the Bundle via the

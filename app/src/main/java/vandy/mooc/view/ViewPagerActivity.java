@@ -93,7 +93,7 @@ public class ViewPagerActivity extends FragmentActivity {
      * 
      * @param directoryPathname
      *            Filepath storing images to display
-     * @param pos
+     * @param position
      *            Position of starting image
      * @return
      */

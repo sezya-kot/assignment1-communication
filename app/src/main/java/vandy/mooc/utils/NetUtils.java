@@ -275,9 +275,9 @@ public class NetUtils {
                  BitmapFactory.Options options = 
                      new BitmapFactory.Options();
                  options.inJustDecodeBounds = true;
-                 BitmapFactory.decodeStream(is, null, options);
-                 if (options.outMimeType == null)
-                     return null;
+//                 BitmapFactory.decodeStream(is, null, options);
+//                 if (options.outMimeType == null)
+//                     return null;
             } catch (Exception e) {
                	return null; // Indicate a failure.
             }

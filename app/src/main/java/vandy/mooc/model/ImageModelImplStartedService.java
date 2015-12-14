@@ -36,6 +36,7 @@ public class ImageModelImplStartedService
                  url,
                  directoryPathname,
                  this);
+
         Log.d(TAG,
               "starting the DownloadImageStartedService for "
               + url.toString());
